@@ -30,7 +30,7 @@ jobs:
         with: 
             image-ref: 'ghcr.io/okamo-dev/awesometodo:561f8290da7510f554921d0639682f1452a385bd'
             format: 'table'
-            ignore-unfixed: true
+            # ignore-unfixed: true
             vuln-type: 'os,library'
             severity: 'HIGH,CRITICAL'
             output: 'trivy-report.txt'
